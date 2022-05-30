@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[onStart method finishedselenium]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart method finishedclickProduct]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess method finishedclickProduct]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-05-29T15:25:35 IST" name="Default Suite" finished-at="2022-05-29T15:25:43 IST" duration-ms="7875">
+    <groups>
+    </groups>
+    <test started-at="2022-05-29T15:25:35 IST" name="selenium" finished-at="2022-05-29T15:25:43 IST" duration-ms="7875">
+      <class name="qa.pages.homepageTest">
+        <test-method is-config="true" signature="initClass()[pri:0, instance:qa.pages.homepageTest@2aece37d]" started-at="2022-05-29T15:25:23 IST" name="initClass" finished-at="2022-05-29T15:25:35 IST" duration-ms="12416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClass -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:qa.pages.homepageTest@2aece37d]" started-at="2022-05-29T15:25:35 IST" name="setUp" finished-at="2022-05-29T15:25:35 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickProduct()[pri:0, instance:qa.pages.homepageTest@2aece37d]" started-at="2022-05-29T15:25:35 IST" name="clickProduct" finished-at="2022-05-29T15:25:38 IST" duration-ms="2834" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[onTestStart method finishedclickProduct]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess method finishedclickProduct]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:qa.pages.homepageTest@2aece37d]" started-at="2022-05-29T15:25:38 IST" name="tearDown" finished-at="2022-05-29T15:25:43 IST" duration-ms="5006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- qa.pages.homepageTest -->
+    </test> <!-- selenium -->
+  </suite> <!-- Default Suite -->
+</testng-results>
