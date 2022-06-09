@@ -17,7 +17,7 @@ import qa.utils.ListenerTest;
 
 @Listeners(ListenerTest.class)
 public class baseclass {
-    protected static WebDriver driver;
+    public static WebDriver driver;
     static Properties prop;
 
     public baseclass() {

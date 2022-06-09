@@ -18,6 +18,7 @@ public class productpage  extends baseclass {
     }
 
     public void addToCart() throws InterruptedException {
+        driver.findElement(By.xpath("hjgjh"));
         if(helper.findElement(driver,variants) != null){
             chooseVariant();
         }
